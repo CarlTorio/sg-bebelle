@@ -7,12 +7,11 @@ import {
   submitOrder, type VariationEntry,
 } from "@/services/pancakeService";
 
-const STATES = [
-  "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", 
-  "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", 
-  "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", 
-  "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", 
-  "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"
+const TOWNS = [
+  "Ang Mo Kio", "Bedok", "Bishan", "Bukit Batok", "Bukit Merah", "Bukit Panjang", "Bukit Timah",
+  "Central Area", "Choa Chu Kang", "Clementi", "Geylang", "Hougang", "Jurong East", "Jurong West",
+  "Kallang", "Marine Parade", "Pasir Ris", "Punggol", "Queenstown", "Sengkang", "Serangoon",
+  "Tampines", "Tanglin", "Toa Payoh", "Woodlands", "Yishun"
 ];
 
 /* ── Package data (shared with Shop) ── */
@@ -102,9 +101,9 @@ const Checkout = () => {
     if (!form.fullName.trim()) e.fullName = "Full name is required";
     if (!form.phone.trim()) e.phone = "Phone is required";
     if (!form.address.trim()) e.address = "Address is required";
-    if (!form.city.trim()) e.city = "City is required";
-    if (!form.state) e.state = "State is required";
-    if (!form.zipCode.trim()) e.zipCode = "ZIP Code is required";
+    if (!form.city.trim()) e.city = "Block / Building is required";
+    if (!form.state) e.state = "Town / Estate is required";
+    if (!form.zipCode.trim()) e.zipCode = "Postal Code is required";
     setErrors(e);
     return Object.keys(e).length === 0;
   };
@@ -340,7 +339,7 @@ const Checkout = () => {
               <div>
                 <input
                   type="text"
-                  placeholder="City"
+                  placeholder="Block / Building"
                   value={form.city}
                   onChange={(e) => handleChange("city", e.target.value)}
                   className="w-full px-4 py-3 rounded-xl border text-[14px] outline-none transition-colors"
@@ -357,8 +356,8 @@ const Checkout = () => {
                     className="w-full px-4 py-3 rounded-xl border text-[14px] outline-none transition-colors appearance-none bg-white"
                     style={{ borderColor: errors.state ? "#EF4444" : "#E5E7EB", color: form.state ? "#1F2937" : "#9CA3AF" }}
                   >
-                    <option value="" disabled>State</option>
-                    {STATES.map(s => <option key={s} value={s}>{s}</option>)}
+                    <option value="" disabled>Town / Estate</option>
+                    {TOWNS.map(s => <option key={s} value={s}>{s}</option>)}
                   </select>
                   <ChevronDown className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-[#9CA3AF] pointer-events-none" />
                   {errors.state && <p className="text-[11px] text-[#EF4444] mt-1">{errors.state}</p>}
@@ -366,7 +365,7 @@ const Checkout = () => {
                 <div>
                   <input
                     type="text"
-                    placeholder="ZIP Code"
+                    placeholder="Postal Code"
                     value={form.zipCode}
                     onChange={(e) => handleChange("zipCode", e.target.value)}
                     className="w-full px-4 py-3 rounded-xl border text-[14px] outline-none transition-colors"
