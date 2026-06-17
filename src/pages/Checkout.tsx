@@ -356,8 +356,8 @@ const Checkout = () => {
                     className="w-full px-4 py-3 rounded-xl border text-[14px] outline-none transition-colors appearance-none bg-white"
                     style={{ borderColor: errors.state ? "#EF4444" : "#E5E7EB", color: form.state ? "#1F2937" : "#9CA3AF" }}
                   >
-                    <option value="" disabled>State</option>
-                    {STATES.map(s => <option key={s} value={s}>{s}</option>)}
+                    <option value="" disabled>Town / Estate</option>
+                    {TOWNS.map(s => <option key={s} value={s}>{s}</option>)}
                   </select>
                   <ChevronDown className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-[#9CA3AF] pointer-events-none" />
                   {errors.state && <p className="text-[11px] text-[#EF4444] mt-1">{errors.state}</p>}
