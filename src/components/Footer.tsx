@@ -125,7 +125,7 @@ const Footer = () => {
         {/* Bottom Row */}
         <div className="flex items-center justify-center text-center">
           <p className="text-[17px] font-bold text-white/60">
-            Powered by Stallion Growth and Commerce LLC
+            STALLION GLOBAL VENTURES PTE. LTD.
           </p>
         </div>
       </div>
