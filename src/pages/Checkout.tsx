@@ -101,9 +101,9 @@ const Checkout = () => {
     if (!form.fullName.trim()) e.fullName = "Full name is required";
     if (!form.phone.trim()) e.phone = "Phone is required";
     if (!form.address.trim()) e.address = "Address is required";
-    if (!form.city.trim()) e.city = "City is required";
-    if (!form.state) e.state = "State is required";
-    if (!form.zipCode.trim()) e.zipCode = "ZIP Code is required";
+    if (!form.city.trim()) e.city = "Block / Building is required";
+    if (!form.state) e.state = "Town / Estate is required";
+    if (!form.zipCode.trim()) e.zipCode = "Postal Code is required";
     setErrors(e);
     return Object.keys(e).length === 0;
   };
