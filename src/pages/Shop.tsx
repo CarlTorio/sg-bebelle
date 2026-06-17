@@ -6,10 +6,10 @@ import SocialProofNotifications from "@/components/SocialProofNotifications";
 import Footer from "@/components/Footer";
 import ReviewsSection from "@/components/ReviewsSection";
 
-const problemArmFatigue = "https://bebelle-files.b-cdn.net/ChatGPT%20Image%20Jun%207%2C%202026%2C%2007_03_36%20PM.png";
-const problemColdMeals = "https://bebelle-files.b-cdn.net/ChatGPT%20Image%20Jun%207%2C%202026%2C%2007_03_39%20PM.png";
-const problemColic = "https://bebelle-files.b-cdn.net/ChatGPT%20Image%20Jun%207%2C%202026%2C%2007_07_28%20PM.png";
-const problemNoHands = "https://bebelle-files.b-cdn.net/ChatGPT%20Image%20Jun%207%2C%202026%2C%2007_07_32%20PM.png";
+const problemArmFatigue = "https://bebelle-files.b-cdn.net/Shop%20Page%20-%20Section%20%231/Section%20%232/Shop%20Section%202%20-%201.webp";
+const problemColdMeals = "https://bebelle-files.b-cdn.net/Shop%20Page%20-%20Section%20%231/Section%20%232/Shop%20Section%202%20-%202.webp";
+const problemColic = "https://bebelle-files.b-cdn.net/Shop%20Page%20-%20Section%20%231/Section%20%232/Shop%20Section%202%20-%203.webp";
+const problemNoHands = "https://bebelle-files.b-cdn.net/Shop%20Page%20-%20Section%20%231/Section%20%232/Shop%20Section%202%20-%204.webp";
 import problemMobile1 from "@/assets/problem-mobile-1.png";
 import problemMobile2 from "@/assets/problem-mobile-2.png";
 import problemMobile3 from "@/assets/problem-mobile-3.png";
