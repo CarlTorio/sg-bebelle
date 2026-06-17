@@ -104,7 +104,7 @@ const Footer = () => {
               </a>
               <div className="flex items-start gap-2 text-[14px] text-white/70">
                 <MapPin className="w-4 h-4 text-white/50 shrink-0 mt-0.5" />
-                <span>Sheridan, WY 82801, USA</span>
+                <span>2 Venture Drive, #14-02, Vision Exchange, Singapore 608526</span>
               </div>
               <a
                 href="https://bebelle-baby.com"
