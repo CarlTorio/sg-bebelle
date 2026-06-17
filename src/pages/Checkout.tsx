@@ -339,7 +339,7 @@ const Checkout = () => {
               <div>
                 <input
                   type="text"
-                  placeholder="City"
+                  placeholder="Block / Building"
                   value={form.city}
                   onChange={(e) => handleChange("city", e.target.value)}
                   className="w-full px-4 py-3 rounded-xl border text-[14px] outline-none transition-colors"
@@ -365,7 +365,7 @@ const Checkout = () => {
                 <div>
                   <input
                     type="text"
-                    placeholder="ZIP Code"
+                    placeholder="Postal Code"
                     value={form.zipCode}
                     onChange={(e) => handleChange("zipCode", e.target.value)}
                     className="w-full px-4 py-3 rounded-xl border text-[14px] outline-none transition-colors"
