@@ -750,7 +750,7 @@ const Shop = () => {
                     {i === 0 && selectedPack === 0 && (
                       <div className="bg-[#FFF9E6] border border-dashed border-[#FFD54F] rounded-xl p-4 shadow-sm animate-in fade-in slide-in-from-top-2 duration-300">
                         <p className="text-[14px] font-bold text-[#856404] mb-1">
-                          Unlock 3 more FREEBIES — worth 2,500 USD!
+                          Unlock 3 more FREEBIES — worth 44 USD!
                         </p>
                         <p className="text-[12px] text-[#856404]/80 mb-3">
                           Only 22 USD more. Upgrade to Duo Pack and unlock everything.
@@ -768,7 +768,7 @@ const Shop = () => {
                     {i === 1 && selectedPack === 1 && (
                       <div className="bg-[#FFF9E6] border border-dashed border-[#FFD54F] rounded-xl p-4 shadow-sm animate-in fade-in slide-in-from-top-2 duration-300">
                         <p className="text-[14px] font-bold text-[#856404] mb-1">
-                          Unlock 3 more FREEBIES — worth 2,500 USD!
+                          Unlock 3 more FREEBIES — worth 44 USD!
                         </p>
                         <p className="text-[12px] text-[#856404]/80 mb-3">
                           Only 22 USD more. Upgrade to Family Pack and unlock everything.
