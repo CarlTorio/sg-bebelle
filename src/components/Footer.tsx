@@ -96,6 +96,13 @@ const Footer = () => {
             <p className={headingClass}>Contact Us</p>
             <div className="flex flex-col gap-3">
               <a
+                href="tel:+6589763877"
+                className="flex items-center gap-2 text-[14px] text-white/70 hover:text-white transition-colors hover:underline underline-offset-4"
+              >
+                <Phone className="w-4 h-4 text-white/50 shrink-0" />
+                +65 8976 3877
+              </a>
+              <a
                 href="mailto:cabueva.jpvmercado@gmail.com"
                 className="flex items-center gap-2 text-[14px] text-white/70 hover:text-white transition-colors hover:underline underline-offset-4"
               >
