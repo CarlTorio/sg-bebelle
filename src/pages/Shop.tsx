@@ -753,7 +753,7 @@ const Shop = () => {
                           Unlock 3 more FREEBIES — worth 2,500 USD!
                         </p>
                         <p className="text-[12px] text-[#856404]/80 mb-3">
-                          Only 999 USD more. Upgrade to Duo Pack and unlock everything.
+                          Only 22 USD more. Upgrade to Duo Pack and unlock everything.
                         </p>
                         <button 
                           onClick={() => setSelectedPack(1)}
@@ -771,7 +771,7 @@ const Shop = () => {
                           Unlock 3 more FREEBIES — worth 2,500 USD!
                         </p>
                         <p className="text-[12px] text-[#856404]/80 mb-3">
-                          Only 999 USD more. Upgrade to Family Pack and unlock everything.
+                          Only 22 USD more. Upgrade to Family Pack and unlock everything.
                         </p>
                         <button 
                           onClick={() => setSelectedPack(2)}
