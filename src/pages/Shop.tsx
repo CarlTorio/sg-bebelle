@@ -93,7 +93,7 @@ const packages = [
     subtitle: "3 Bebelle Bottles",
     subtext: "Perfect for home, travel & gifts",
     images: ["https://i.imgur.com/Quujeth.png", "https://i.imgur.com/WjjzQww.png", "https://i.imgur.com/Quujeth.png"],
-    originalPrice: "74 USD",
+    originalPrice: "75 USD",
     salePrice: "46 USD",
     salePriceColor: "#1F2937",
     savingsText: "Save 25 USD (33% OFF)",
