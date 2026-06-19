@@ -130,7 +130,10 @@ const Footer = () => {
         <div className="my-10 border-t border-white/10" />
 
         {/* Bottom Row */}
-        <div className="flex items-center justify-center text-center">
+        <div className="flex flex-col items-center justify-center text-center gap-1">
+          <p className="text-[11px] uppercase tracking-widest text-white/40 font-medium">
+            Powered by
+          </p>
           <p className="text-[17px] font-bold text-white/60">
             STALLION GLOBAL VENTURES PTE. LTD.
           </p>
