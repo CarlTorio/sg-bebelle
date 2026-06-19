@@ -17,8 +17,8 @@ const TOWNS = [
 /* ── Package data (shared with Shop) ── */
 const packs = [
   { id: "starter", label: "Get One",   sku: "1BB", qty: 1, subtitle: "1 Bebelle Bottle",  price: 17,  original: 25, save: "32%", saveAmt: 8 },
-  { id: "duo",     label: "Get Two",   sku: "2BB", qty: 2, subtitle: "2 Bebelle Bottles", price: 33, original: 49, save: "32%", saveAmt: 16 },
-  { id: "family",  label: "Get Three", sku: "3BB", qty: 3, subtitle: "3 Bebelle Bottles", price: 49, original: 74, save: "33%", saveAmt: 25 },
+  { id: "duo",     label: "Get Two",   sku: "2BB", qty: 2, subtitle: "2 Bebelle Bottles", price: 33, original: 50, save: "34%", saveAmt: 17 },
+  { id: "family",  label: "Get Three", sku: "3BB", qty: 3, subtitle: "3 Bebelle Bottles", price: 46, original: 75, save: "39%", saveAmt: 29 },
 ];
 
 const Checkout = () => {
