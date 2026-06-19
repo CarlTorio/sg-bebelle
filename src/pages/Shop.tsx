@@ -74,7 +74,7 @@ const packages = [
     originalPrice: "50 USD",
     salePrice: "33 USD",
     salePriceColor: "#5BA4D9",
-    savingsText: "Save 16 USD (32% OFF)",
+    savingsText: "Save 17 USD (34% OFF)",
     savingsBg: "#5BA4D9",
     savingsColor: "#FFFFFF",
     perBottle: "Only 16.5 USD per bottle",
@@ -96,7 +96,7 @@ const packages = [
     originalPrice: "75 USD",
     salePrice: "46 USD",
     salePriceColor: "#1F2937",
-    savingsText: "Save 25 USD (33% OFF)",
+    savingsText: "Save 29 USD (39% OFF)",
     savingsBg: "#FEE2E2",
     savingsColor: "#5BA4D9",
     perBottle: "Only 16.3 USD per bottle",
@@ -736,7 +736,7 @@ const Shop = () => {
                             {i === 0 ? "Get One" : i === 1 ? "Get Two" : "Get Three"}
                           </span>
                           <span className="hidden md:inline text-[11px] font-bold text-white px-2.5 py-0.5 rounded" style={{ backgroundColor: "#5BA4D9" }}>
-                            SAVE 37%
+                            {i === 0 ? "SAVE 32%" : i === 1 ? "SAVE 34%" : "SAVE 39%"}
                           </span>
                         </div>
                         <div className="flex items-center gap-2">
