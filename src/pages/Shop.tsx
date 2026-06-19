@@ -781,6 +781,18 @@ const Shop = () => {
                         </button>
                       </div>
                     )}
+
+                    {/* Confirmation for Get Three */}
+                    {i === 2 && selectedPack === 2 && (
+                      <div className="bg-[#E6F9E6] border border-dashed border-[#4ADE80] rounded-xl p-4 shadow-sm animate-in fade-in slide-in-from-top-2 duration-300">
+                        <p className="text-[14px] font-bold text-[#166534] mb-1">
+                          Unlock all 6 freebies — worth 44 USD!
+                        </p>
+                        <p className="text-[12px] text-[#166534]/80">
+                          You've unlocked everything. Best deal secured!
+                        </p>
+                      </div>
+                    )}
                   </div>
                 ))}
               </div>
