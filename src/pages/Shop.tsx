@@ -736,7 +736,7 @@ const Shop = () => {
                             {i === 0 ? "Get One" : i === 1 ? "Get Two" : "Get Three"}
                           </span>
                           <span className="hidden md:inline text-[11px] font-bold text-white px-2.5 py-0.5 rounded" style={{ backgroundColor: "#5BA4D9" }}>
-                            SAVE 33%
+                            SAVE 37%
                           </span>
                         </div>
                         <div className="flex items-center gap-2">
