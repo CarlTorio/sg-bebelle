@@ -103,11 +103,11 @@ const Footer = () => {
                 +65 8976 3877
               </a>
               <a
-                href="mailto:cabueva.jpvmercado@gmail.com"
+                href="mailto:jpvmercado@stallion-global.com"
                 className="flex items-center gap-2 text-[14px] text-white/70 hover:text-white transition-colors hover:underline underline-offset-4"
               >
                 <Mail className="w-4 h-4 text-white/50 shrink-0" />
-                cabueva.jpvmercado@gmail.com
+                jpvmercado@stallion-global.com
               </a>
               <div className="flex items-start gap-2 text-[14px] text-white/70">
                 <MapPin className="w-4 h-4 text-white/50 shrink-0 mt-0.5" />
