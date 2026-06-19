@@ -750,7 +750,7 @@ const Shop = () => {
                     {i === 0 && selectedPack === 0 && (
                       <div className="bg-[#FFF9E6] border border-dashed border-[#FFD54F] rounded-xl p-4 shadow-sm animate-in fade-in slide-in-from-top-2 duration-300">
                         <p className="text-[14px] font-bold text-[#856404] mb-1">
-                          Unlock 3 more FREEBIES — worth 44 USD!
+                          Unlock 3 more freebies — worth 22 USD!
                         </p>
                         <p className="text-[12px] text-[#856404]/80 mb-3">
                           Only 22 USD more. Upgrade to Duo Pack and unlock everything.
@@ -781,6 +781,18 @@ const Shop = () => {
                         </button>
                       </div>
                     )}
+
+                    {/* Confirmation for Get Three */}
+                    {i === 2 && selectedPack === 2 && (
+                      <div className="bg-[#E6F9E6] border border-dashed border-[#4ADE80] rounded-xl p-4 shadow-sm animate-in fade-in slide-in-from-top-2 duration-300">
+                        <p className="text-[14px] font-bold text-[#166534] mb-1">
+                          Unlock all 6 freebies — worth 44 USD!
+                        </p>
+                        <p className="text-[12px] text-[#166534]/80">
+                          You've unlocked everything. Best deal secured!
+                        </p>
+                      </div>
+                    )}
                   </div>
                 ))}
               </div>
@@ -802,7 +814,7 @@ const Shop = () => {
                   </div>
                   <div className="bg-[#5BA4D9]/5 px-4 py-2 rounded-2xl border border-[#5BA4D9]/10">
                     <p className="text-[14px] font-black text-[#5BA4D9]">
-                      {packages[selectedPack].ebooks} of 6 <span className="text-[#94A3B8] font-medium mx-1">|</span> Worth 2,500 USD
+                      {packages[selectedPack].ebooks} of 6 <span className="text-[#94A3B8] font-medium mx-1">|</span> {selectedPack === 0 ? "Worth 0 USD" : selectedPack === 1 ? "Worth 22 USD" : "Worth 44 USD"}
                     </p>
                   </div>
                 </div>
