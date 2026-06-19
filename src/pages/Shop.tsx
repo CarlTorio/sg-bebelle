@@ -814,7 +814,7 @@ const Shop = () => {
                   </div>
                   <div className="bg-[#5BA4D9]/5 px-4 py-2 rounded-2xl border border-[#5BA4D9]/10">
                     <p className="text-[14px] font-black text-[#5BA4D9]">
-                      {packages[selectedPack].ebooks} of 6 <span className="text-[#94A3B8] font-medium mx-1">|</span> Worth 2,500 USD
+                      {packages[selectedPack].ebooks} of 6 <span className="text-[#94A3B8] font-medium mx-1">|</span> {selectedPack === 0 ? "Worth 0 USD" : selectedPack === 1 ? "Worth 22 USD" : "Worth 44 USD"}
                     </p>
                   </div>
                 </div>
