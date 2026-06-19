@@ -71,7 +71,7 @@ const packages = [
     subtitle: "2 Bebelle Bottles",
     subtext: "Mix & match any colors",
     images: ["https://i.imgur.com/Quujeth.png", "https://i.imgur.com/WjjzQww.png"],
-    originalPrice: "46 USD",
+    originalPrice: "50 USD",
     salePrice: "33 USD",
     salePriceColor: "#5BA4D9",
     savingsText: "Save 16 USD (32% OFF)",
